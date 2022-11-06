@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material depletable="true" id="3" name="LEU">
+    <density units="g/cc" value="18.944492" />
+    <nuclide ao="0.00031" name="U234" />
+    <nuclide ao="0.029967" name="U235" />
+    <nuclide ao="0.969723" name="U238" />
+  </material>
+  <material depletable="true" id="4" name="omcLEU">
+    <density units="g/cc" value="18.944492" />
+    <nuclide ao="0.0002705642360170746" name="U234" />
+    <nuclide ao="0.030270751256842695" name="U235" />
+    <nuclide ao="0.9693200299268562" name="U238" />
+    <nuclide ao="0.00013865458028394223" name="U236" />
+  </material>
+</materials>
