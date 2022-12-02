@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <materials>
-  <material depletable="true" id="6" name="PuProduct">
+  <material depletable="true" id="4" name="PuProduct">
     <density units="g/cc" value="19.84" />
-    <nuclide ao="6.67480011533234e-14" name="Pu236" />
-    <nuclide ao="5.320891614010038e-17" name="Pu237" />
-    <nuclide ao="1.1938566115040606e-05" name="Pu238" />
-    <nuclide ao="0.00015631304958274795" name="Pu239" />
-    <nuclide ao="7.935288547620989e-05" name="Pu240" />
-    <nuclide ao="4.4319922995909365e-05" name="Pu241" />
-    <nuclide ao="3.0127591867809664e-05" name="Pu242" />
-    <nuclide ao="5.221539995997931e-20" name="Pu243" />
-    <nuclide ao="3.800294726627512e-09" name="Pu244" />
-    <nuclide ao="1.3210717776682425e-23" name="Pu246" />
+    <nuclide ao="6.502557096818144e-14" name="Pu236" />
+    <nuclide ao="5.315190381573953e-17" name="Pu237" />
+    <nuclide ao="1.1923099577410624e-05" name="Pu238" />
+    <nuclide ao="0.00015650879663706865" name="Pu239" />
+    <nuclide ao="7.940085190161406e-05" name="Pu240" />
+    <nuclide ao="4.429925521722728e-05" name="Pu241" />
+    <nuclide ao="3.013055525809057e-05" name="Pu242" />
+    <nuclide ao="5.2589694618123466e-20" name="Pu243" />
+    <nuclide ao="3.799883296822239e-09" name="Pu244" />
+    <nuclide ao="1.3373133464162786e-23" name="Pu246" />
   </material>
 </materials>
