@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plots>
+  <plot basis="xy" color_by="material" filename="HALEU_GCR" id="4" type="slice">
+    <origin>0.0 0.0 0.0</origin>
+    <width>2.5280000000000005 2.5280000000000005</width>
+    <pixels>400 400</pixels>
+    <color id="1" rgb="255 255 0" />
+    <color id="2" rgb="0 0 255" />
+    <color id="3" rgb="128 128 128" />
+  </plot>
+</plots>
