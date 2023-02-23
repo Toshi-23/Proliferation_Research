@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<geometry>
+  <cell id="49" material="49" name="Bare Critical Sphere" region="-49" universe="49" />
+  <surface boundary="vacuum" coeffs="0 0 0 64.010986328125" id="49" name="BCM" type="sphere" />
+</geometry>

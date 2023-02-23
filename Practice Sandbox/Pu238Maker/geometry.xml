@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<geometry>
+  <cell id="1" material="4" name="fuel" region="-1" universe="1" />
+  <cell id="2" material="void" name="gap_f" region="1 -2" universe="1" />
+  <cell id="3" material="5" name="clad_f" region="2 -3" universe="1" />
+  <cell id="4" material="6" name="coolant_f" region="3" universe="1" />
+  <cell id="5" material="3" name="fuel_t" region="-1" universe="2" />
+  <cell id="6" material="void" name="gap_t" region="1 -2" universe="2" />
+  <cell id="7" material="5" name="clad_t" region="2 -3" universe="2" />
+  <cell id="8" material="6" name="coolant_t" region="3" universe="2" />
+  <cell id="9" material="6" name="all_coolant_cell" universe="3" />
+  <cell fill="4" id="10" region="-5 4 -7 6 -9 8" universe="5" />
+  <lattice id="4">
+    <pitch>1.23526 1.23526</pitch>
+    <outer>3</outer>
+    <dimension>5 5</dimension>
+    <lower_left>-3.08815 -3.08815</lower_left>
+    <universes>
+1 1 1 1 1 
+1 1 1 1 1 
+1 1 2 1 1 
+1 1 1 1 1 
+1 1 1 1 1 </universes>
+  </lattice>
+  <surface coeffs="0.0 0.0 0.4096" id="1" type="z-cylinder" />
+  <surface coeffs="0.0 0.0 0.4179" id="2" type="z-cylinder" />
+  <surface coeffs="0.0 0.0 0.4751" id="3" type="z-cylinder" />
+  <surface boundary="reflective" coeffs="-3.08815" id="4" type="x-plane" />
+  <surface boundary="reflective" coeffs="3.08815" id="5" type="x-plane" />
+  <surface boundary="reflective" coeffs="-3.08815" id="6" type="y-plane" />
+  <surface boundary="reflective" coeffs="3.08815" id="7" type="y-plane" />
+  <surface boundary="reflective" coeffs="-50.0" id="8" type="z-plane" />
+  <surface boundary="reflective" coeffs="50.0" id="9" type="z-plane" />
+</geometry>

@@ -2,7 +2,7 @@
 <materials>
   <material depletable="true" id="1" name="fuel_compact" volume="226.1946710584651">
     <density units="sum" />
-    <nuclide ao="0.077952692777091" name="C0" />
+    <nuclide ao="0.07795269277709098" name="C0" />
     <nuclide ao="2.4792322562953713e-22" name="Ac225" />
     <nuclide ao="6.6939155769095594e-40" name="Ac226" />
     <nuclide ao="6.47612710015809e-17" name="Ac227" />

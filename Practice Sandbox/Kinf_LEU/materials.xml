@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material depletable="true" id="1" name="LEU">
+    <density units="g/cc" value="18.944492" />
+    <nuclide ao="0.00031" name="U234" />
+    <nuclide ao="0.029967" name="U235" />
+    <nuclide ao="0.969723" name="U238" />
+  </material>
+</materials>
