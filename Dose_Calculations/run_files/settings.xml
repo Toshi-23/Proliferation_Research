@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<settings>
+  <run_mode>fixed source</run_mode>
+  <particles>30000</particles>
+  <batches>100</batches>
+  <generations_per_batch>100</generations_per_batch>
+  <source particle="photon" strength="5101933116.196207">
+    <space origin="0.0 0.0 0.0" type="cylindrical">
+      <r parameters="0 0.42 1" type="powerlaw" />
+      <phi parameters="0.0 1.0" type="uniform" />
+      <z parameters="-150.0 150.0" type="uniform" />
+    </space>
+    <energy type="discrete">
+      <parameters>283500.0 4.235177914969822e-15</parameters>
+    </energy>
+  </source>
+  <source particle="photon" strength="6039820751.810752">
+    <space origin="0.0 0.0 0.0" type="cylindrical">
+      <r parameters="0 0.42 1" type="powerlaw" />
+      <phi parameters="0.0 1.0" type="uniform" />
+      <z parameters="-150.0 150.0" type="uniform" />
+    </space>
+    <energy type="discrete">
+      <parameters>4515.408 5017.402 5561.656 6411.138 33568.0 35567.1 36055.6 40684.3 40781.6 40980.0 41054.0 41075.1 41769.4 41790.4 41887.7 41891.4 53395.0 80120.0 99961.0 133515.0 2.0493514625117848e-11 1.811857471414657e-10 1.6763075230654015e-10 2.7070793527009527e-11 5.62092962215061e-11 6.626693636857675e-10 1.2108212265323946e-09 1.18714191305453e-10 2.2984809637705451e-10 7.244753735216342e-11 1.4747686719067773e-12 1.9803344324027164e-12 2.5381690378060456e-11 4.935075965239244e-11 3.1410527388175e-13 4.212625162601452e-13 2.810464811075305e-11 3.84096857513625e-10 1.1241859244301219e-11 3.122738678972561e-09</parameters>
+    </energy>
+  </source>
+</settings>
