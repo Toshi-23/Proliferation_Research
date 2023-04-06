@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<geometry>
+  <cell id="1" material="1" name="fuel" region="-1 2 -3" universe="1" />
+  <cell id="2" material="2" name="fuel clad" region="(1 | -2 | 3) (-4 5 -6)" universe="1" />
+  <cell id="3" material="3" name="air around fuel" region="4 | -5 | 6" universe="1" />
+  <cell id="4" material="3" name="gt inner" region="-1 2 -3" universe="2" />
+  <cell id="5" material="2" name="gt clad" region="(1 | -2 | 3) (-4 5 -6)" universe="2" />
+  <cell id="6" material="3" name="gt outer" region="4 | -5 | 6" universe="2" />
+  <cell id="7" material="3" name="just air" universe="3" />
+  <cell fill="4" id="8" name="assy" region="-8 7 -10 9 -12 11" universe="5" />
+  <cell id="9" material="3" name="air cell" region="(8 | -7 | 10 | -9 | 12 | -11) (-13 14 -15)" universe="5" />
+  <lattice id="4">
+    <pitch>1.26 1.26</pitch>
+    <outer>3</outer>
+    <dimension>17 17</dimension>
+    <lower_left>-10.71 -10.71</lower_left>
+    <universes>
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 2 1 1 2 1 1 2 1 1 1 1 1 
+1 1 1 2 1 1 1 1 1 1 1 1 1 2 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 2 1 1 2 1 1 2 1 1 2 1 1 2 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 2 1 1 2 1 1 2 1 1 2 1 1 2 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 2 1 1 2 1 1 2 1 1 2 1 1 2 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 2 1 1 1 1 1 1 1 1 1 2 1 1 1 
+1 1 1 1 1 2 1 1 2 1 1 2 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </universes>
+  </lattice>
+  <surface coeffs="0.0 0.0 0.4178" id="1" type="z-cylinder" />
+  <surface coeffs="-213.35" id="2" type="z-plane" />
+  <surface coeffs="213.35" id="3" type="z-plane" />
+  <surface coeffs="0.0 0.0 0.475" id="4" type="z-cylinder" />
+  <surface coeffs="-213.4072" id="5" type="z-plane" />
+  <surface coeffs="213.4072" id="6" type="z-plane" />
+  <surface coeffs="-10.71" id="7" type="x-plane" />
+  <surface coeffs="10.71" id="8" type="x-plane" />
+  <surface coeffs="-10.71" id="9" type="y-plane" />
+  <surface coeffs="10.71" id="10" type="y-plane" />
+  <surface coeffs="-213.4072" id="11" type="z-plane" />
+  <surface coeffs="213.4072" id="12" type="z-plane" />
+  <surface boundary="vacuum" coeffs="0.0 0.0 110.71000000000001" id="13" type="z-cylinder" />
+  <surface boundary="vacuum" coeffs="-234.685" id="14" type="z-plane" />
+  <surface boundary="vacuum" coeffs="234.685" id="15" type="z-plane" />
+</geometry>
